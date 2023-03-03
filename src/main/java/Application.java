@@ -1,4 +1,4 @@
-import java.util.Set;
+import java.util.HashSet;
 
 public class Application {
     /**
@@ -11,7 +11,7 @@ public class Application {
     public static void main(String[] args) {
         Lab setLab = new Lab();
         System.out.println("Was the set properly instantiated? this will print '[]' if yes, null if no");
-        Set<Integer> mySet = setLab.createSet();
+        HashSet<Integer> mySet = setLab.createSet();
         System.out.println(mySet);
 
         System.out.println("If we're able to add an item to the set, it should be present in the set (return true)");
