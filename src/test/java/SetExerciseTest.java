@@ -2,7 +2,7 @@ import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import java.util.Set;
+import java.util.HashSet;
 
 public class SetExerciseTest {
     static Lab se;
@@ -16,7 +16,7 @@ public class SetExerciseTest {
      */
     @Test
     public void createSetTest(){
-        Set<Integer> set = se.createSet();
+        HashSet<Integer> set = se.createSet();
         Assert.assertNotNull(set);
     }
 
@@ -25,7 +25,7 @@ public class SetExerciseTest {
      */
     @Test
     public void getSizeTest(){
-        Set<Integer> set = se.createSet();
+        HashSet<Integer> set = se.createSet();
         if(set == null){
             Assert.fail();
         }else{
@@ -38,7 +38,7 @@ public class SetExerciseTest {
      */
     @Test
     public void getSizeTest2(){
-        Set<Integer> set = se.createSet();
+        HashSet<Integer> set = se.createSet();
         if(set == null){
             Assert.fail();
         }else{
@@ -52,7 +52,7 @@ public class SetExerciseTest {
      */
     @Test
     public void addItemTest1(){
-        Set<Integer> set = se.createSet();
+        HashSet<Integer> set = se.createSet();
         if(set == null){
             Assert.fail();
         }else{
@@ -67,7 +67,7 @@ public class SetExerciseTest {
      */
     @Test
     public void addItemTest2(){
-        Set<Integer> set = se.createSet();
+        HashSet<Integer> set = se.createSet();
         if(set == null){
             Assert.fail();
         }else{
@@ -84,7 +84,7 @@ public class SetExerciseTest {
      */
     @Test
     public void removeItemTest1(){
-        Set<Integer> set = se.createSet();
+        HashSet<Integer> set = se.createSet();
         if(set == null){
             Assert.fail();
         }else{
